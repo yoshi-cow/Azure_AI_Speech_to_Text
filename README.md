@@ -12,6 +12,9 @@
 
 -> <b>ConversationTranscriberクラス(python)を用いて複数話者の会議音声の文字起こしを実装</b>
 
+## Azure AI Speechサービスの払い出しについて
+* 以前は、リソースから『音声』サービスをデプロイしていたが、2025/5よりAI Foundryに統一され、AI Foundryプロジェクトの「モデル+エンドポイント」→「サービスエンドポイント」の『Azure AI 音声』から、キーとエンドポイントを取得。
+
 ## 内容
 1. youtubeで見つけた経済に関する議論の音声ファイルを、Azure SpeechのConversationTranscriberで文字起こしを実施してテキストファイルに保存。
    * 結果：
